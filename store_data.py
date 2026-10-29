@@ -11,6 +11,7 @@ django.setup()
 from store.models import *
 
 OrderItem.objects.all().delete()
+
 Order.objects.all().delete()
 Customer.objects.all().delete()
 Address.objects.all().delete()
